@@ -15,7 +15,7 @@ I set the gain values through trial and error. To begin with, I set the I and D 
 
 I then zeroed the P value as well, and tuned the D gain in isolation until the balance was effectively able to negate the velocity of the moving car/ball. At this point, with some additional minor tuning, the P-D controller was already very effective at returning the object to the set point and stopping its motion there. 
 
-I then experimented with very small values for the I gain and limited its max value to prevent oscillation. I also set a limitation that ensures that I gain is only considered when the object is within a very short distance of the set point.
+For the I gain, I experimented with very small values and limited its max value to prevent oscillation. I also set a limitation that ensures that I gain is only considered when the object is within a very short distance of the set point.
 
 P gain: 
 
