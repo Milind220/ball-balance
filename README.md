@@ -17,9 +17,9 @@ I then zeroed the P value as well, and tuned the D gain in isolation until the b
 
 For the I gain, I experimented with very small values and limited its max value to prevent oscillation. I also set a limitation that ensures that I gain is only considered when the object is within a very short distance of the set point.
 
-P gain: 
+P gain: 5.3
 
-I gain: 
+I gain: 0.07
 
-D gain:
+D gain: 1800
 
