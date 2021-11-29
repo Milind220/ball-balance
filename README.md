@@ -4,6 +4,8 @@ This is a project that I made to better understand and apply the concept of PID 
 
 In my project, the control algorithm I used was a simple PID (proportional-integral-derivative) control.
 
+You can find complete videos of the project [here](https://drive.google.com/drive/folders/1BQwBAJkQs052C5EKD3FMkhIT8mthKC8j?usp=sharing)
+
 ## How it works
 
 An ultrasonic distance sensor (HC-SR04) mounted on one end of the see-saw measures the error (the distance between the set point, and the position of the object). It does this ~ 50 times/second, and feeds these readings into an Arduino Uno mounted on the base. The loop function in the Arduino contains the PID algorithm. With every run through the loop, it generates a total 'feedback value' based on the P, I and D gain values set. This is then mapped to a range of values which in turn control a servo motor (MG-996R) attached to the see-saw/balance. 
@@ -22,4 +24,5 @@ P gain: 5.3
 I gain: 0.07
 
 D gain: 1800
+
 
